@@ -1,5 +1,5 @@
 class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
+    def containsDuplicate(self, nums: list[int]) -> bool:
         # since sets cannot contain duplicates, we can convert
         # nums into a set and compare it's length to the original array
         # sets will get rid of duplicates when converting which is why this works
@@ -11,7 +11,7 @@ class Solution:
 # we can have an if statement to verify if the current index is in the set or not before adding
 '''
 class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
+    def containsDuplicate(self, nums: list[int]) -> bool:
         seen = set()
         for num in nums:
             if num in seen:
