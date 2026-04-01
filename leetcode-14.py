@@ -1,5 +1,5 @@
 class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
+    def longestCommonPrefix(self, strs: list[str]) -> str:
         prefix = ""
         # setting shortest word from strs
         # anything longer cant count as a common prefix
